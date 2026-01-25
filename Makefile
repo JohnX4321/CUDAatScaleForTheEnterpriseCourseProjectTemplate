@@ -51,6 +51,12 @@ $(TARGET): $(SRC)
 	mkdir -p $(BIN_DIR)
 	$(NVCC) $(CXXFLAGS) $(SRC) -o $(TARGET) $(LDFLAGS)
 
+# Build knn example
+.PHONY: build
+build:
+	@echo "Building knn example..."
+	$(MAKE) -C $(SRC_DIR)/knn all
+
 # Clean up
 clean:
 	rm -rf $(BIN_DIR)/*

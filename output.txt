@@ -1,0 +1,32 @@
+k-NN (brute force)
+Dataset size: 10000, Dim: 32, Queries: 5, K: 5
+Query 0: Top 5 neighbors:
+  idx=2456 dist=2.167729
+  idx=4955 dist=2.372577
+  idx=7427 dist=2.428721
+  idx=3502 dist=2.437126
+  idx=6454 dist=2.477410
+Query 1: Top 5 neighbors:
+  idx=8744 dist=1.764120
+  idx=7256 dist=1.814742
+  idx=533 dist=2.102097
+  idx=9834 dist=2.109348
+  idx=2698 dist=2.145839
+Query 2: Top 5 neighbors:
+  idx=3321 dist=1.921946
+  idx=1913 dist=2.211841
+  idx=7429 dist=2.329054
+  idx=6192 dist=2.338336
+  idx=6846 dist=2.343687
+Query 3: Top 5 neighbors:
+  idx=3725 dist=1.903108
+  idx=5698 dist=2.103081
+  idx=612 dist=2.182180
+  idx=1413 dist=2.211099
+  idx=4612 dist=2.325191
+Query 4: Top 5 neighbors:
+  idx=641 dist=1.616171
+  idx=78 dist=2.214190
+  idx=7119 dist=2.292195
+  idx=6304 dist=2.314699
+  idx=224 dist=2.362973
