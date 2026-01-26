@@ -5,6 +5,7 @@
 # Output
 
 Present in output.txt. This project aims to run the K-Nearest Neighbours by bruteforce approach using GPU's in Cu code.
+Run the project by running make build. Then running ./knn.exe . 
 
 ## Code Organization
 
