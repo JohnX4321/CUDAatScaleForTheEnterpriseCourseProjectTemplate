@@ -2,6 +2,10 @@
 
 ## Overview
 
+# Output
+
+Present in output.txt. This project aims to run the K-Nearest Neighbours by bruteforce approach using GPU's in Cu code.
+
 ## Code Organization
 
 ```bin/```
