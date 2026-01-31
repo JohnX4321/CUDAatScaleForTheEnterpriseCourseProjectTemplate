@@ -43,23 +43,20 @@ BIN_DIR = bin
 DATA_DIR = data
 LIB_DIR = lib
 
-# Define the default rule
-all: $(TARGET)
+# Define the default rule: build knn example
+all: build
 
-# Rule for building the target executable
-$(TARGET): $(SRC)
-	mkdir -p $(BIN_DIR)
-	$(NVCC) $(CXXFLAGS) $(SRC) -o $(TARGET) $(LDFLAGS)
-
-# Build knn example
+# Build knn example (delegates to src/knn Makefile)
 .PHONY: build
 build:
 	@echo "Building knn example..."
-	$(MAKE) -C $(SRC_DIR)/knn all
+	$(MAKE) -C $(SRC_DIR)/knn build
 
 # Clean up
 clean:
+	@echo "Cleaning project and knn example..."
 	rm -rf $(BIN_DIR)/*
+	$(MAKE) -C $(SRC_DIR)/knn clean
 
 # Help command
 help:
