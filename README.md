@@ -1,6 +1,8 @@
-# Example README.md file for Coursera Projects
+
 
 ## Overview
+
+The project aims to run KNN and PCA-KNN and compare the performance of both. The results are atatched in video. The individual output is attached in the outputs.txt file. 
 
 # Output
 
